@@ -170,30 +170,30 @@ limitations under the License.
 <string name="app_notification_no_ongoing_on_keyguard_title">Отключить текущие уведомления на экране блокировки</string>
 <string name="app_notification_no_ongoing_on_keyguard_summary">Никогда не отображать текущие уведомления от этого приложения на экране блокировки</string>
 <!-- Screenshot sound -->
-<string name="screenshot_sound_title">Screenshot sound</string>
-<string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+<string name="screenshot_sound_title">Звук скриншота</string>
+<string name="screenshot_sound_summary">Проигрывать соответствующий звук после снятия скриншота</string>
 <!-- Network traffic -->
-<string name="network_traffic_title">Network traffic</string>
-<string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
-<string name="show_network_traffic_state">Status bar traffic monitor</string>
-<string name="show_network_traffic_unit">Display unit</string>
-<string name="show_network_traffic_frequency">Update interval</string>
-<string name="show_network_traffic_disable">Disabled</string>
-<string name="show_network_traffic_up">Outgoing</string>
-<string name="show_network_traffic_down">Incoming</string>
-<string name="show_network_traffic_all">Outgoing and incoming</string>
-<string name="show_network_traffic_bit">Bits per second</string>
-<string name="show_network_traffic_byte">Bytes per second</string>
-<string name="show_network_traffic_500">500 ms</string>
-<string name="show_network_traffic_1000">1000 ms</string>
-<string name="show_network_traffic_1500">1500 ms</string>
-<string name="show_network_traffic_2000">2000 ms</string>
-<string name="network_traffic_autohide">Auto hide</string>
-<string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-<string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-<string name="network_traffic_color_style">Color style</string>
-<string name="network_traffic_color_reset">Reset color</string>
-<string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+<string name="network_traffic_title">Скорость соеденения</string>
+<string name="network_traffic_summary">Включение различных настроек отображения скорости соеденения в статус-баре</string>
+<string name="show_network_traffic_state">Скорость соеденения в статус баре</string>
+<string name="show_network_traffic_unit">Еденица измерения</string>
+<string name="show_network_traffic_frequency">Интервал обновления</string>
+<string name="show_network_traffic_disable">Отключен</string>
+<string name="show_network_traffic_up">Исходящай</string>
+<string name="show_network_traffic_down">Входящий</string>
+<string name="show_network_traffic_all">Исходящий и входящий</string>
+<string name="show_network_traffic_bit">Биты в секунду</string>
+<string name="show_network_traffic_byte">Байты в секунду</string>
+<string name="show_network_traffic_500">500 мс</string>
+<string name="show_network_traffic_1000">1000 мс</string>
+<string name="show_network_traffic_1500">1500 мс</string>
+<string name="show_network_traffic_2000">2000 с</string>
+<string name="network_traffic_autohide">Автоскрытие</string>
+<string name="network_traffic_autohide_summary">Скрывать скорость соеденения когда передача данных не осуществляется</string>
+<string name="network_traffic_autohide_threshold">Порог неактивности</string>
+<string name="network_traffic_color_style">Цвет</string>
+<string name="network_traffic_color_reset">Сбросить цвет</string>
+<string name="network_traffic_color_reset_message">Сбросить цвет скорости соеденения?</string>
 <!-- Bliss settings screens -->
 <string name="header_category_personalization">Персонализация</string>
 <string name="interface_settings_title">Интерфейс</string>
@@ -204,8 +204,8 @@ limitations under the License.
 <string name="arrow_down">↓</string>
 <string name="hex">Hex:</string>
 <string name="hex_hint">#ff000000</string>
-<string name="set">Set</string>
-<string name="color_default">Default</string>
+<string name="set">Применить</string>
+<string name="color_default">Стандарт</string>
 <!-- Status bar -->
 <string name="status_bar_title">Статус бар</string>
 <string name="status_bar_style_title">Стиль</string>
@@ -241,19 +241,19 @@ limitations under the License.
 <string name="clock_date_style_lowercase">Нижний регистр</string>
 <string name="clock_date_style_uppercase">Верхний регистр</string>
 <string name="clock_date_format_custom">Свой java формат</string>
-<string name="status_bar_clock_style_reset_message">Reset clock color?</string>
-<string name="clock_font_style_title">Font</string>
-<string name="clock_font_bold">Bold</string>
-<string name="clock_font_condensed">Condensed</string>
-<string name="clock_font_light">Light</string>
-<string name="clock_font_light_italic">Light italic</string>
-<string name="clock_font_normal">Normal</string>
-<string name="clock_use_second">Use second clock</string>
-<string name="clock_use_second_summary">Show second in clock</string>
+<string name="status_bar_clock_style_reset_message">Сбросить цвет часов?</string>
+<string name="clock_font_style_title">Шрифт</string>
+<string name="clock_font_bold">Жирный</string>
+<string name="clock_font_condensed">Сжатый</string>
+<string name="clock_font_light">Легкий</string>
+<string name="clock_font_light_italic">Легкий с наклоном</string>
+<string name="clock_font_normal">Обычный</string>
+<string name="clock_use_second">Включить секунды</string>
+<string name="clock_use_second_summary">Отображать секунды в часах</string>
 <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
 <string name="supersu_title">SuperSU</string>
 <!-- Hardware tunables - Key backlight -->
-<string name="button_backlight_title">Backlight</string>
+<string name="button_backlight_title">Подсветка</string>
 <string name="button_backlight_enabled">Illuminate buttons</string>
 <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
 <string name="button_backlight_seekbar_title">Button brightness</string>
@@ -268,7 +268,7 @@ limitations under the License.
 <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
 <string name="backlight_summary_enabled">Enabled</string>
 <!-- Automatic brightness customization -->
-<string name="auto_brightness_setup_title">Automatic brightness</string>
+<string name="auto_brightness_setup_title">Автоматическа подсветка</string>
 <string name="auto_brightness_twilight_adjustment">Adjust to sunrise and sunset</string>
 <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>
 <string name="auto_brightness_dialog_title">Automatic brightness levels</string>
@@ -322,20 +322,20 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="auto_brightness_sensitivity_high">High</string>
 <string name="auto_brightness_sensitivity_veryhigh">Very high</string>
 <!-- Recents panel settings -->
-<string name="recents_options_title">Настройки \"Недавно запущенных\"</string>
-<string name="recents_panel_settings">Recents panel settings</string>
-<string name="show_clear_all_recents_button_title">Clear All Button Tweaks</string>
-<string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
-<string name="recents_clear_all_location_title">Clear all recents location</string>
-<string name="recents_clear_all_location_top_right">Top right</string>
-<string name="recents_clear_all_location_top_left">Top left</string>
-<string name="recents_clear_all_location_top_center">Top center</string>
-<string name="recents_clear_all_location_bottom_right">Bottom right</string>
-<string name="recents_clear_all_location_bottom_left">Bottom left</string>
-<string name="recents_clear_all_location_bottom_center">Bottom center</string>
+<string name="recents_options_title">Недавно запущенные</string>
+<string name="recents_panel_settings">Настройки меню недавно запущенных приложений</string>
+<string name="show_clear_all_recents_button_title">Кнопка закрытия всех приложений</string>
+<string name="show_clear_all_recents_button_summary">Отображать кнопку закрытия всех приложений в меню недавно запущенных приложений</string>
+<string name="recents_clear_all_location_title">Расположение кнопки закрытия всех приложений</string>
+<string name="recents_clear_all_location_top_right">Верхний правый край</string>
+<string name="recents_clear_all_location_top_left">Верхний левый край</string>
+<string name="recents_clear_all_location_top_center">Верхний центр</string>
+<string name="recents_clear_all_location_bottom_right">Нижний правый край</string>
+<string name="recents_clear_all_location_bottom_left">Нижний левый край</string>
+<string name="recents_clear_all_location_bottom_center">Нижний центр</string>
 <!-- Clear all recents on navbar enabler strings -->
-<string name="clear_all_recents_navbar_enabled_title">Clear all recents button on Navbar</string>
-<string name="clear_all_recents_navbar_enabled_summary">Show clear all recents button in navigation bar</string>
+<string name="clear_all_recents_navbar_enabled_title">Кнопка очистить все в нав-баре</string>
+<string name="clear_all_recents_navbar_enabled_summary">Отображать кнопку очистить все в панели навигации</string>
 <!-- QuickSettings: Quick Pulldown -->
 <string name="qs_title">Быстрые настройки</string>
 <string name="title_quick_pulldown">Быстрое открытие настроек</string>
@@ -343,88 +343,80 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="quick_pulldown_off">Отключить</string>
 <string name="quick_pulldown_left">Левый</string>
 <string name="quick_pulldown_right">Правый</string>
-<string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
-<string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen.</string>
+<string name="block_on_secure_keyguard_title">Отключить на экране блокировки</string>
+<string name="block_on_secure_keyguard_summary">Отключить быстрые настройки на экране блокировки.</string>
 <!-- QuickSettings: Smart Pulldown -->
-<string name="smart_pulldown_title">Smart pulldown</string>
-<string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
-<string name="smart_pulldown_off">Off</string>
-<string name="smart_pulldown_dismissable">No dismissable</string>
-<string name="smart_pulldown_persistent">No persistent</string>
-<string name="smart_pulldown_all">No dismissable or persistent</string>
+<string name="smart_pulldown_title">Умное открытие настроек</string>
+<string name="smart_pulldown_summary">Открывать быстрые настройки когда %1$s уведомлений</string>
+<string name="smart_pulldown_off">Отключить</string>
+<string name="smart_pulldown_dismissable">Нет отклоняемых</string>
+<string name="smart_pulldown_persistent">Нет постоянных</string>
+<string name="smart_pulldown_all">Нет отклоняемых или постоянных</string>
 <!-- Camera sound switch -->
-<string name="camera_sounds_title">Camera shutter sound</string>
-<string name="camera_sounds_summary">Enable system camera shutter sound</string>
-<string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
+<string name="camera_sounds_title">Звук затвора камеры</string>
+<string name="camera_sounds_summary">Включить звук затвора камеры при захвате снимка</string>
+<string name="camera_sound_warning_dialog_text">Отключение звука затвора камеры незаконно в некоторых странах! Пожалуйста, проверьте соответствующий закон в вашей стране</string>
 <!-- MediaScanner behavior on boot -->
-<string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
-<string name="media_scanner_on_boot_enabled">Scan media</string>
-<string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
-<string name="media_scanner_on_boot_disabled">Do not scan media</string>
+<string name="media_scanner_on_boot_title">Поведение медиа-сканера при загрузке</string>
+<string name="media_scanner_on_boot_enabled">Сканировать мультимедию</string>
+<string name="media_scanner_on_boot_ask">Спрашивать о сканировании в уведомлении</string>
+<string name="media_scanner_on_boot_disabled">Не сканировать мультимедию</string>
 <!-- Navigation bar -->
-<string name="nav_bar_title">Navigation bar</string>
-<string name="navbar_enable_bar_title">Navigation bar buttons</string>
-<string name="navbar_enable_bar_summary">Enable on-screen nav bar buttons</string>
-<string name="navbar_style_dimen_title">Nav bar dimensions</string>
-<string name="navbar_dimensions_reset_message">Reset all dimensions entries to default?</string>
-<string name="navigation_bar_height_title">Navigation bar height</string>
-<string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
-<string name="navigation_bar_width_title">Navigation bar width</string>
-<string name="navigation_bar_width_summary">Navigation bar height if the bar is along a side</string>
-<string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+<string name="nav_bar_title">Навигационный бар</string>
+<string name="navbar_enable_bar_title">Кнопки навигационного бара</string>
+<string name="navbar_enable_bar_summary">Включить наэкранные навигационные кнопки</string>
+<string name="navbar_style_dimen_title">Размеры навигационного бара</string>
+<string name="navbar_dimensions_reset_message">Сбросить размеры навигационного бара?</string>
+<string name="navigation_bar_height_title">Высота навигационного бара</string>
+<string name="navigation_bar_height_summary">Высота навигационного бара в портретном режиме</string>
+<string name="navigation_bar_width_title">Ширина навигационного бара</string>
+<string name="navigation_bar_width_summary">Ширина навигационного бара в ландшафтном режиме</string>
+<string name="navigation_bar_size_42_dp_default">42 dp (стандарт)</string>
 <string name="navigation_bar_size_36_dp">36 dp</string>
 <string name="navigation_bar_size_30_dp">30 dp</string>
 <string name="navigation_bar_size_24_dp">24 dp</string>
-<string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+<string name="navigation_bar_size_48_dp_default">48 dp (стандарт)</string>
 <string name="navigation_bar_size_44_dp">44 dp</string>
 <string name="navigation_bar_size_40_dp">40 dp</string>
 <string name="navigation_bar_size_42_dp">42 dp</string>
-<string name="navigation_bar_size_0_dp">0 dp (off)</string>
-<!-- QuickSettings: Smart Pulldown -->
-<string name="smart_pulldown_title">Smart pulldown</string>
-<string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
-<string name="smart_pulldown_off">Off</string>
-<string name="smart_pulldown_dismissable">No dismissable</string>
-<string name="smart_pulldown_persistent">No persistent</string>
-<string name="smart_pulldown_all">No dismissable or persistent</string>
+<string name="navigation_bar_size_0_dp">0 dp (отключить)</string>
 <!-- Restart SystemUI -->
-<string name="restart_systemui">Restart SystemUI</string>
+<string name="restart_systemui">Перезагрузить системный интерфейс</string>
 <!--Power menu -->
-<string name="power_category">Power key</string>
-<string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
-<string name="lockscreen_enable_power_menu_summary">This option will disable the power menu only on secure lock screens</string>
+<string name="power_category">Кнопка выключения</string>
+<string name="lockscreen_enable_power_menu_title">Отображать меню питания на экране блокировки</string>
+<string name="lockscreen_enable_power_menu_summary">Эта опция выключить меню питания только на защищенном экране блокировки</string>
 <!-- Search Bar Switcher -->
-<string name="recents_show_searchbar">Show Search Bar in Recents</string>
-<string name="recents_show_searchbar_summary">Enable or disable the Google search bar in the recents menu</string>
+<string name="recents_show_searchbar">Отображать строку поиска в недавних</string>
+<string name="recents_show_searchbar_summary">Включить или отключить строку поиска Google в меню недавно запущенных приложений</string>
 <!-- Ability to disable hardware keys via nav bar settings -->
-<string name="hw_keys_title">Hardware keys</string>
-<string name="hw_keys_summary">Enable hardware keys</string>
+<string name="hw_keys_title">Аппаратные клавиши</string>
+<string name="hw_keys_summary">Включить аппаратные клавиши</string>
 <!-- Status bar notifications and system icons -->
-<string name="notif_system_icons_colorize_notif_icons_title">Colorize notification icons</string>
+<string name="notif_system_icons_colorize_notif_icons_title">Раскрасить иконки уведомлений</string>
 <!-- <string name="notif_system_icons_colorize_notif_icons_title_phone">Colorize notif. icons</string> -->
-<string name="notif_system_icons_colorize_notif_icons_summary">Enable to colorize the notification icons color</string>
-<string name="notif_system_icons_show_ticker_title">Notification ticker</string>
-<string name="notif_system_icons_show_ticker_summary">Notification text animation in the statusbar</string>
-<string name="notif_system_icons_show_count_title">Show notification count</string>
-<string name="notif_system_icons_show_count_summary">Display the number of pending notifications</string>
-<string name="notif_system_icons_icon_color_title">Icons</string>
-<string name="notif_system_icons_notif_text_color_title">Ticker text</string>
-<string name="notif_system_icons_count_icon_color_title">Notification count icon</string>
-<string name="notif_system_icons_count_text_color_title">Notification count Text</string>
-<string name="status_bar_notif_system_icons_settings_title">Notifications &amp; system icons</string>
+<string name="notif_system_icons_colorize_notif_icons_summary">Включите для раскраски иконки уведомлений в разные цвета</string>
+<string name="notif_system_icons_show_ticker_title">Тикер уведомлений</string>
+<string name="notif_system_icons_show_ticker_summary">Тексовая анимация уведомления в статус баре</string>
+<string name="notif_system_icons_show_count_title">Отображать количество уведомлений</string>
+<string name="notif_system_icons_show_count_summary">Отображать количество однотипных уведомлений</string>
+<string name="notif_system_icons_icon_color_title">Иконки</string>
+<string name="notif_system_icons_notif_text_color_title">Текст тикера</string>
+<string name="notif_system_icons_count_icon_color_title">Иконка количества уведомлений</string>
+<string name="notif_system_icons_count_text_color_title">Текст количества уведомлений</string>
+<string name="status_bar_notif_system_icons_settings_title">Уведомления &amp; системные иконки</string>
 <!-- <string name="status_bar_notif_system_icons_settings_title_phone">Notif. &amp; system icons</string> -->
-<string name="status_bar_notif_system_icons_settings_summary">Customize the notifications &amp; system icons</string>
+<string name="status_bar_notif_system_icons_settings_summary">Настройте уведомления &amp; системные иконки</string>
 <!-- Status bar Header -->
-<string name="status_bar_expanded_header_settings_title">Status bar header</string>
-<string name="status_bar_expanded_header_settings_summary">Customize the Expanded Header Layout</string>
-<string name="expanded_header_show_weather_title">Show weather</string>
-<string name="expanded_header_show_weather_summary">Enable to show the weather</string>
+<string name="status_bar_expanded_header_settings_title">Заголовок статус  бара</string>
+<string name="status_bar_expanded_header_settings_summary">Настройте расположения в расширенном заголовке статус-бара</string>
+<string name="expanded_header_show_weather_title">Отображать погоду</string>
+<string name="expanded_header_show_weather_summary">Включите для отображения погоды</string>
 <string name="expanded_header_show_weather_location_title">Show location</string>
 <string name="expanded_header_show_weather_location_summary">Enable to show the location</string>
 <!--Quick unlock -->
-<string name="unlock_quick_unlock_control_title">Quick unlock</string>
-<string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/pas
-sword is entered</string>
+<string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+<string name="unlock_quick_unlock_control_summary">Разблокировать устройство при вводе правильного пароля/PIN</string>
 <!-- Lockscreen pin shuffle -->
 <string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
 <string name="lock_numpad_random_dialog_title">PIN pad random order</string>
