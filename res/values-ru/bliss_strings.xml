@@ -19,9 +19,6 @@ limitations under the License.
 <string name="share_bliss_summary">Расскажите вашим друзьям о BlissPop</string>
 <string name="share_message">Посмотри что такое BlissPop! Вся информация тут - http://www.blissroms.com</string>
 <string name="share_chooser_title">Рассказать о BlissPop</string>
-<!-- Text for disabling immersive mode messages -->
-<string name="disable_immersive_message_title">Отключить сообщения полноэкранного режима</string>
-<string name="disable_immersive_message_summary">Спрятать все сообщения полноэкранного режима</string>
 <!-- Partition Info -->
 <string name="partition_info_title">Информация о разделах</string>
 <string name="partition_info_system">/system</string>
