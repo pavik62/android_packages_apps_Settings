@@ -409,38 +409,38 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="status_bar_expanded_header_settings_summary">Настройте расположения в расширенном заголовке статус-бара</string>
 <string name="expanded_header_show_weather_title">Отображать погоду</string>
 <string name="expanded_header_show_weather_summary">Включите для отображения погоды</string>
-<string name="expanded_header_show_weather_location_title">Show location</string>
-<string name="expanded_header_show_weather_location_summary">Enable to show the location</string>
+<string name="expanded_header_show_weather_location_title">Отображать местоположение</string>
+<string name="expanded_header_show_weather_location_summary">Включите для отображения местоположения</string>
 <!--Quick unlock -->
 <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
 <string name="unlock_quick_unlock_control_summary">Разблокировать устройство при вводе правильного пароля/PIN</string>
 <!-- Lockscreen pin shuffle -->
-<string name="lock_numpad_random_title">Change the order of PIN pad numbers</string>
-<string name="lock_numpad_random_dialog_title">PIN pad random order</string>
-<string name="lock_numpad_random_off">Disabled</string>
-<string name="lock_numpad_random_always">Always</string>
-<string name="lock_numpad_random_on_request">On request</string>
+<string name="lock_numpad_random_title">Менять местами цифры при наборе PIN</string>
+<string name="lock_numpad_random_dialog_title">Режим случайных цифр при вводе PIN</string>
+<string name="lock_numpad_random_off">Отключен</string>
+<string name="lock_numpad_random_always">Всегда</string>
+<string name="lock_numpad_random_on_request">По запросу</string>
 <!--Device Control-->
 <string name="device_control_title">Контроль устройства</string>
 <!-- OmniSwitch -->
 <string name="omniswitch_category">OmniSwitch</string>
-<string name="omniswitch_settings_title">OmniSwitch Settings</string>
+<string name="omniswitch_settings_title">Настройки OmniSwitch</string>
 <!-- ListView animation -->
-<string name="listview_category">ListView Animation</string>
-<string name="listview_animation_title">ListView Animation</string>
-<string name="listview_off">Off</string>
-<string name="listview_wave_left">Wave (Left)</string>
-<string name="listview_wave_right">Wave (Right)</string>
+<string name="listview_category">Анимация ListView</string>
+<string name="listview_animation_title">Анимация ListView</string>
+<string name="listview_off">Отключить</string>
+<string name="listview_wave_left">Волна влево</string>
+<string name="listview_wave_right">Волна вправо</string>
 <string name="listview_alpha">Alpha</string>
-<string name="listview_scale">Scale</string>
-<string name="listview_stack_top">Stack (Top)</string>
-<string name="listview_stack_bottom">Stack (Bottom)</string>
-<string name="listview_unfold">Unfold</string>
-<string name="listview_fold">Fold</string>
-<string name="listview_translate_left">Translate (Left)</string>
-<string name="listview_translate_right">Translate (Right)</string>
+<string name="listview_scale">Шкала</string>
+<string name="listview_stack_top">Стек (верх)</string>
+<string name="listview_stack_bottom">Стек (вниз)</string>
+<string name="listview_unfold">Раскрывание</string>
+<string name="listview_fold">Сложение</string>
+<string name="listview_translate_left">Перенос влево</string>
+<string name="listview_translate_right">Перенос вправо</string>
 <!-- ListView interpolator -->
-<string name="listview_interpolator_title">ListView Interpolator</string>
+<string name="listview_interpolator_title">Интерполятор ListView</string>
 <string name="listview_accelerate_interpolator">accelerate_interpolator</string>
 <string name="listview_decelerate_interpolator">decelerate_interpolator</string>
 <string name="listview_accelerate_decelerate_interpolator">accelerate_decelerate_interpolator</string>
@@ -448,7 +448,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="listview_overshoot_interpolator">overshoot_interpolator</string>
 <string name="listview_anticipate_overshoot_interpolator">anticipate_overshoot_interpolator</string>
 <string name="listview_bounce_interpolator">bounce_interpolator</string>
-<string name="shortcut_action_none">None</string>
+<string name="shortcut_action_none">Никакой</string>
 <string name="shortcut_action_app">Custom app</string>
 <string name="shortcut_action_home">Home</string>
 <string name="shortcut_action_back">Back</string>
@@ -465,7 +465,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="shortcut_action_media_next">Music - next track</string>
 <string name="shortcut_action_media_play_pause">Music - play/pause</string>
 <string name="shortcut_action_media_previous">Music - previous track</string>
-<string name="shortcut_action_wake_device">Wake up device</string>
+<string name="shortcut_action_wake_device">Пробуждать устройство</string>
 <string name="shortcut_action_longpress">Longpress:</string>
 <string name="shortcut_action_select_action_longpress">Choose longpress action:</string>
 <string name="shortcut_action_select_action">Choose action:</string>
@@ -551,68 +551,68 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
 <string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
 <!-- Show carrier label and custom -->
-<string name="carrier_options">Carrier Label Options</string>
-<string name="show_status_bar_carrier_title">Status bar carrier</string>
-<string name="show_status_bar_carrier_summary">Show carrier in status bar</string>
-<string name="custom_carrier_label_title">Custom carrier label</string>
-<string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-<string name="custom_carrier_label_notset">Custom label currently not set</string>
-<string name="status_bar_carrier_color">Status Bar Carrier label color</string>
+<string name="carrier_options">Настройки надписи оператора</string>
+<string name="show_status_bar_carrier_title">Имя оператора в статус баре</string>
+<string name="show_status_bar_carrier_summary">Отображать имя вашего оператора в левом углу статус-бара</string>
+<string name="custom_carrier_label_title">Свое название оператора</string>
+<string name="custom_carrier_label_explain">Пожалуйста, введите новое имя оператора. Оставьте поле пустым чтобы вернуться к начальному имени.</string>
+<string name="custom_carrier_label_notset">Свое имя оператора сейчас не установлено</string>
+<string name="status_bar_carrier_color">Цвет имени оператора</string>
 <!-- Device specific settings -->
-<string name="screen_off_gesture_settings_title">Screen off gestures</string>
+<string name="screen_off_gesture_settings_title">Жесты отключения экрана</string>
 <!-- Unaccounted and overcounted battery stats -->
 <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
 <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
 <!-- Battery Category -->
-<string name="status_bar_battery_style">Battery Options</string>
+<string name="status_bar_battery_style">Опции батареи</string>
 <!-- Battery Bar -->
-<string name="status_bar_battery_cat_title">Battery</string>
-<string name="battery_bar_title">Battery Bar</string>
-<string name="battery_bar">Battery bar location</string>
-<string name="battery_bar_color">Battery bar color</string>
-<string name="battery_bar_cat">Battery bar style</string>
-<string name="battery_bar_style_title">Battery bar alignment</string>
-<string name="battery_bar_thickness_title">Battery bar thickness</string>
-<string name="battery_bar_animate_title">Charging animation</string>
-<string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+<string name="status_bar_battery_cat_title">Батарея</string>
+<string name="battery_bar_title">Полоса заряда батареи</string>
+<string name="battery_bar">Расположение полосы заряда батареи</string>
+<string name="battery_bar_color">Цвет полосы заряда батареи</string>
+<string name="battery_bar_cat">Стиль полосы заряда батареи</string>
+<string name="battery_bar_style_title">Выравнивание полосы заряда батареи</string>
+<string name="battery_bar_thickness_title">Тонкость полосы заряда батареи</string>
+<string name="battery_bar_animate_title">Анимация зарядки</string>
+<string name="battery_bar_animate_summary">Анимация зарядки может привести к плохому пользовательскому опыта. Включайте на своё усмотрение.</string>
 <!-- Wakelock blocker -->
-<string name="wakelock_blocker">Wakelock blocker</string>
-<string name="wakelock_blocker_title">Enable</string>
-<string name="wakelock_blocker_summary">Block system wakelocks</string>
-<string name="wakelock_blocker_save">Save</string>
-<string name="wakelock_list_header">Available wakelocks</string>
-<string name="wakelock_blocker_reload">Reload</string>
-<string name="wakelock_blocker_warning_title">Proceed with caution</string>
-<string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss.</string>
+<string name="wakelock_blocker">Блокировщик вейк-локов</string>
+<string name="wakelock_blocker_title">Включить</string>
+<string name="wakelock_blocker_summary">Блокировать системные вейк-локи</string>
+<string name="wakelock_blocker_save">Сохранить</string>
+<string name="wakelock_list_header">Доступные вейк-локи</string>
+<string name="wakelock_blocker_reload">Обновить</string>
+<string name="wakelock_blocker_warning_title">Применяйте с осторожностью</string>
+<string name="wakelock_blocker_warning">При блокировке вейк-локов есть шанс получить нестабильность, краши или потерю данных.</string>
 <!-- Heads up -->
-<string name="heads_up_title">Heads up notification</string>
-<string name="app_notification_enable_heads_up_title">Show heads up</string>
-<string name="app_notification_enable_heads_up_summary">Show notifications from this app as heads up</string>
-<string name="heads_up_snooze_title">Snooze timer</string>
-<string name="heads_up_snooze_summary">If snooze button is pressed, disable heads up for <xliff:g id="number">%d</xliff:g> minutes</string>
-<string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-<string name="heads_up_snooze_3min">3 minutes</string>
-<string name="heads_up_snooze_5min">5 minutes</string>
-<string name="heads_up_snooze_10min">10 minutes</string>
-<string name="heads_up_snooze_15min">15 minutes</string>
-<string name="heads_up_snooze_20min">20 minutes</string>
-<string name="heads_up_time_out_title">Time out</string>
-<string name="heads_up_time_out_summary">Heads up notification will show up for <xliff:g id="number">%d</xliff:g> seconds</string>
-<string name="heads_up_time_out_never_summary">Heads up notification will show until it is dismissed</string>
-<string name="heads_up_time_out_4sec">4 seconds</string>
-<string name="heads_up_time_out_6sec">6 seconds</string>
-<string name="heads_up_time_out_8sec">8 seconds</string>
-<string name="heads_up_time_out_10sec">10 seconds</string>
-<string name="heads_up_time_out_never">Never</string>
+<string name="heads_up_title">Уведомления Heads Up</string>
+<string name="app_notification_enable_heads_up_title">Отображать Heads Up</string>
+<string name="app_notification_enable_heads_up_summary">Отображать уведомления от этого приложения в виде Heads Up</string>
+<string name="heads_up_snooze_title">Таймер повтора</string>
+<string name="heads_up_snooze_summary">При нажатии кнопки повтора, отключить Heads Up на %d минут</string>
+<string name="heads_up_snooze_disabled_summary">Таймер повтора отключен</string>
+<string name="heads_up_snooze_3min">3 минуты</string>
+<string name="heads_up_snooze_5min">5 минут</string>
+<string name="heads_up_snooze_10min">10 минут</string>
+<string name="heads_up_snooze_15min">15 минут</string>
+<string name="heads_up_snooze_20min">20 минут</string>
+<string name="heads_up_time_out_title">Тайм-аут</string>
+<string name="heads_up_time_out_summary">Уведомления Heads Up будут отображаться %d секунд</string>
+<string name="heads_up_time_out_never_summary">Heads Up уведомления будут отображаться, пока не будут отклонены</string>
+<string name="heads_up_time_out_4sec">4 секунды</string>
+<string name="heads_up_time_out_6sec">6 секунды</string>
+<string name="heads_up_time_out_8sec">8 секунд</string>
+<string name="heads_up_time_out_10sec">10 секунд</string>
+<string name="heads_up_time_out_never">Никогда</string>
 <!-- Option to enable/disable scrolling cache -->
-<string name="pref_scrollingcache_title">Scrolling cache</string>
-<string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-<string name="pref_scrollingcache_force_enable">Force enable</string>
-<string name="pref_scrollingcache_default_enable">Default enable</string>
-<string name="pref_scrollingcache_default_disable">Default disable</string>
-<string name="pref_scrollingcache_force_disable">Force disable</string>
+<string name="pref_scrollingcache_title">Кэш прокрутки</string>
+<string name="pref_scrollingcache_summary">Кэш прокрутки может улучшить производительность прокрутки в ущерб памяти</string>
+<string name="pref_scrollingcache_force_enable">Включить принудительно</string>
+<string name="pref_scrollingcache_default_enable">Включить</string>
+<string name="pref_scrollingcache_default_disable">Отключить</string>
+<string name="pref_scrollingcache_force_disable">Принудительно отключить</string>
 <!-- Scrolling Animation Controls -->
-<string name="scrolling_title">Scrolling modifiers</string>
+<string name="scrolling_title">Модификации скроллинга</string>
 <string name="scrolling_summary">View or change scrolling animations</string>
 <string name="animation_fling_velocity_title">Fling velocity</string>
 <string name="animation_scroll_friction_title">Scroll friction</string>
@@ -689,49 +689,49 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <!-- Circle app bar -->
 <string name="category_app_circle_bar_title">App launcher</string>
 <string name="app_circle_bar_title">Круговой бар приложений</string>
-<string name="app_circle_bar_summary">Show circle app launcher after touching right side of screen</string>
-<string name="app_circle_bar_included_apps_title">Included apps</string>
-<string name="app_circle_bar_included_apps_summary">Apps will show in app circle bar</string>
-<string name="trigger_width_title">Trigger width</string>
-<string name="trigger_width_summary">Adjust the width of the trigger area</string>
-<string name="trigger_top_title">Trigger position</string>
-<string name="trigger_top_summary">Adjust the vertical postion of the trigger area</string>
-<string name="trigger_bottom_title">Trigger height</string>
-<string name="trigger_bottom_summary">Adjust the height of the trigger area</string>
+<string name="app_circle_bar_summary">Отображать круговой лаунчер приложений при касании правой части экрана</string>
+<string name="app_circle_bar_included_apps_title">Включенные приложения</string>
+<string name="app_circle_bar_included_apps_summary">Эти приложения будут отображены в круговом баре</string>
+<string name="trigger_width_title">Ширина триггера</string>
+<string name="trigger_width_summary">Настройки ширину экрана, при касании которой будет появляться круговой бар</string>
+<string name="trigger_top_title">Позиция триггера</string>
+<string name="trigger_top_summary">Настройки вертикальную позицию триггера</string>
+<string name="trigger_bottom_title">Высота триггера</string>
+<string name="trigger_bottom_summary">Настройки высоту экрана, при касании которой будет появляться круговой бар</string>
 <!-- LockClocK -->
-<string name="lock_clock_title">Clock widget settings</string>
-<string name="lock_clock_summary">View or change how the clock widget will be displayed.</string>
+<string name="lock_clock_title">Настройки виджета часов</string>
+<string name="lock_clock_summary">Просмотр или изменение вида виджета часов.</string>
 <!-- Bluetooth additions -->
 <!-- Bluetooth accept all Filestypes -->
 <string name="bluetooth_accept_all_files">Accept all file types</string>
 <!-- Download Center -->
 <string name="download_category">Загрузки Bliss</string>
-<string name="download_category_summary">Вся поддержка внутри</string>
-<string name="rom_category">Rom Download</string>
-<string name="gapps_category">GAPPS Packages</string>
-<string name="kernels_category">Kernel Downloads</string>
-<string name="addons_category">Misc Addons</string>
-<string name="bliss_official_title">BlissPop Official Builds</string>
-<string name="bliss_official_summary">Link for official release builds of BlissPop</string>
-<string name="bliss_nightly_title">BlissPop Nightly Builds</string>
-<string name="bliss_nightly_summary">Link for nightly release builds of BlissPop</string>
+<string name="download_category_summary">Поддержа, загрузка прошивки, загрузка ядер и т.д.</string>
+<string name="rom_category">Скачать ROM</string>
+<string name="gapps_category"> Пакеты GAPPS</string>
+<string name="kernels_category">Загрузки ядер</string>
+<string name="addons_category">Различные аддоны</string>
+<string name="bliss_official_title">Официальные сборки BlissPop</string>
+<string name="bliss_official_summary">Ссылка на официальные сборки BlissPop</string>
+<string name="bliss_nightly_title">Ночные сборки BlissPop</string>
+<string name="bliss_nightly_summary">Ссылка на ночные сборки BlissPop</string>
 <string name="banksgapps_title">Banks Gapps</string>
-<string name="banksgapps_summary">Banks Gapps are generally recommended gapps for use on BlissPop</string>
+<string name="banksgapps_summary">Пакет Banks Gapps крайне рекомендуется для использования с BlissPop</string>
 <string name="pagapps_title">PA Gapps</string>
-<string name="pagapps_summary">Fully packed with the majority of GAPPS, these are commonly used by users that do not want to download/install them later</string>
-<string name="kernels_title">Bliss Kernels</string>
-<string name="kernels_summary">Various Kernels for Devices Supported by Team Bliss</string>
-<string name="addons_title">Misc Addons</string>
-<string name="addons_summary">Sound Mods, Splash Screens, etc.</string>
+<string name="pagapps_summary">Полностью упакованные большинством приложений Google, они обычно используются пользователями, которые не хотят загружать и устанавливать приложения их позже</string>
+<string name="kernels_title">Ядра Bliss</string>
+<string name="kernels_summary">Различные ядра для устройств, поддерживаемых Team Bliss</string>
+<string name="addons_title">Различные аддоны</string>
+<string name="addons_summary">Модификации звуков, сплэш-экраны, и т.д.</string>
 <!-- Doze pulse (ambient display) notification timeout -->
-<string name="doze_timeout_title">Ambient display timeout</string>
-<string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
+<string name="doze_timeout_title">Тайм-аут Запрета спящего режима</string>
+<string name="doze_timeout_summary">Промежуток времени, в котором будут отображаться уведомления на черном экране</string>
 <!-- Doze (ambient display) preference category -->
-<string name="display_category_doze_options_title">Ambient display options</string>
+<string name="display_category_doze_options_title">Настройки Запрета спящего режима</string>
 <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-<string name="show_cpu_info">Show CPU info</string>
+<string name="show_cpu_info">Показывать информацию о CPU</string>
 <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-<string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+<string name="show_cpu_info_summary">Панель, показывающая текущее данные CPU</string>
 <!-- Lock Gesture settings -->
 <!-- Security & location settings screen, setting option name -->
 <string name="lockgesture_change_lock_pattern_label">Change unlock gesture</string>
@@ -797,14 +797,14 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
 <string name="unlock_set_unlock_mode_gesture">Gesture</string>
 <!-- Volume Steps -->
-<string name="volume_steps_title">Volume steps</string>
-<string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-<string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-<string name="volume_steps_music_title">Volume steps: Music</string>
-<string name="volume_steps_notification_title">Volume steps: Notification</string>
-<string name="volume_steps_ring_title">Volume steps: Ringer</string>
-<string name="volume_steps_system_title">Volume steps: System</string>
-<string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+<string name="volume_steps_title">Шаги звука</string>
+<string name="volume_steps_alarm_title">Шаги звука: Будильник</string>
+<string name="volume_steps_dtmf_title">Шаги звука: DTMF</string>
+<string name="volume_steps_music_title">Шаги звука: Музыка</string>
+<string name="volume_steps_notification_title">Шаги звука: Уведомления</string>
+<string name="volume_steps_ring_title">Шаги звука: Звонок</string>
+<string name="volume_steps_system_title">Шаги звука: Система</string>
+<string name="volume_steps_voice_call_title">Шаги звука: Голосовой звонок</string>
 <string name="volume_steps_60">60</string>
 <string name="volume_steps_45">45</string>
 <string name="volume_steps_30">30</string>
@@ -812,34 +812,34 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="volume_steps_7">7</string>
 <string name="volume_steps_5">5</string>
 <!-- IME animations -->
-<string name="ime_animation_title">IME animations</string>
-<string name="ime_animation_summary">Set custom animations for system keyboard</string>
-<string name="animation_settings_reset_message">Reset animations to default?</string>
-<string name="animation_default">Default</string>
-<string name="animation_fade">Fade</string>
-<string name="animation_slide_right">Slide in right</string>
-<string name="animation_slide_left">Slide in left</string>
-<string name="animation_slide_right_no_fade">Slide in right (no fade)</string>
-<string name="animation_slide_left_no_fade">Slide in left (no fade)</string>
-<string name="animation_slide_up">Slide in bottom</string>
-<string name="animation_slide_down">Slide in top</string>
-<string name="animation_translucent">Translucent</string>
-<string name="animation_grow_shrink">Grow in (top)</string>
-<string name="animation_grow_shrink_center">Grow in (center)</string>
-<string name="animation_grow_shrink_bottom">Grow in (bottom)</string>
-<string name="animation_grow_shrink_left">Grow in (left)</string>
-<string name="animation_grow_shrink_right">Grow in (right)</string>
-<string name="animation_random">Random</string>
-<string name="ime_animation_test_title">Test IME animation</string>
-<string name="ime_enter_animation_title">Enter animation</string>
-<string name="ime_exit_animation_title">Exit animation</string>
-<string name="ime_interpolator_title">Interpolator</string>
-<string name="ime_duration_title">IME duration</string>
+<string name="ime_animation_title">Анимации IME</string>
+<string name="ime_animation_summary">Примените различные анимации для системной клавиатуры</string>
+<string name="animation_settings_reset_message">Сбросить анимации на стандартные?</string>
+<string name="animation_default">Обычная</string>
+<string name="animation_fade">Исчезновение</string>
+<string name="animation_slide_right">Слайд вправо</string>
+<string name="animation_slide_left">Слайд влево</string>
+<string name="animation_slide_right_no_fade">Слайд вправо (без исчезновения)</string>
+<string name="animation_slide_left_no_fade">Слайд влево (без исчезновения)</string>
+<string name="animation_slide_up">Слайд вниз</string>
+<string name="animation_slide_down">Слайд вверх</string>
+<string name="animation_translucent">Прозрачность</string>
+<string name="animation_grow_shrink">Появление (верх)</string>
+<string name="animation_grow_shrink_center">Появление (центр)</string>
+<string name="animation_grow_shrink_bottom">Появление (низ)</string>
+<string name="animation_grow_shrink_left">Появление (лево)</string>
+<string name="animation_grow_shrink_right">Появление (право)</string>
+<string name="animation_random">Случайная</string>
+<string name="ime_animation_test_title">Просмотреть анимацию IME</string>
+<string name="ime_enter_animation_title">Анимация открытия</string>
+<string name="ime_exit_animation_title">Анимация закрытия</string>
+<string name="ime_interpolator_title">Интерполятор</string>
+<string name="ime_duration_title">Длительность анимации IME</string>
 <!-- Screen recorder -->
-<string name="screen_recorder_title">Screen recorder</string>
-<string name="screen_recorder_summary">Adjust screen recorder settings</string>
-<string name="screen_recorder_video_dimensions_title">Video size</string>
-<string name="screen_recorder_video_bitrate_title">Bitrate</string>
+<string name="screen_recorder_title">Захват видео с экрана</string>
+<string name="screen_recorder_summary">Настройте параметры захвата видео</string>
+<string name="screen_recorder_video_dimensions_title">Размер видео</string>
+<string name="screen_recorder_video_bitrate_title">Битрейт</string>
 <!-- video sizes -->
 <string name="screen_recorder_size_240x400">240x400</string>
 <string name="screen_recorder_size_360x640">360x640</string>
@@ -849,16 +849,16 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="screen_recorder_size_600x1024">600x1024</string>
 <string name="screen_recorder_size_720x1280">720x1280</string>
 <!-- frame rates -->
-<string name="screen_recorder_bitrate_title_100000">100 kB/s</string>
-<string name="screen_recorder_bitrate_title_250000">250 kB/s</string>
-<string name="screen_recorder_bitrate_title_500000">500 kB/s</string>
-<string name="screen_recorder_bitrate_title_1000000">1 MB/s</string>
-<string name="screen_recorder_bitrate_title_2000000">2 MB/s</string>
-<string name="screen_recorder_bitrate_title_3000000">3 MB/s</string>
-<string name="screen_recorder_bitrate_title_4000000">4 MB/s</string>
-<string name="screen_recorder_bitrate_title_5000000">5 MB/s</string>
-<string name="screen_recorder_bitrate_title_10000000">10 MB/s</string>
-<string name="screen_recorder_bitrate_title_20000000">20 MB/s</string>
+<string name="screen_recorder_bitrate_title_100000">100 кБ/с</string>
+<string name="screen_recorder_bitrate_title_250000">250 кБ/с</string>
+<string name="screen_recorder_bitrate_title_500000">500 кБ/с/string>
+<string name="screen_recorder_bitrate_title_1000000">1 МБ/с</string>
+<string name="screen_recorder_bitrate_title_2000000">2 МБ/с</string>
+<string name="screen_recorder_bitrate_title_3000000">3 МБ/с</string>
+<string name="screen_recorder_bitrate_title_4000000">4 МБ/с</string>
+<string name="screen_recorder_bitrate_title_5000000">5 МБ/с</string>
+<string name="screen_recorder_bitrate_title_10000000">10 МБ/с</string>
+<string name="screen_recorder_bitrate_title_20000000">20 МБ/с</string>
 <string name="screen_recorder_bitrate_100000">100000</string>
 <string name="screen_recorder_bitrate_250000">250000</string>
 <string name="screen_recorder_bitrate_500000">500000</string>
@@ -869,18 +869,18 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <string name="screen_recorder_bitrate_5000000">5000000</string>
 <string name="screen_recorder_bitrate_10000000">10000000</string>
 <string name="screen_recorder_bitrate_20000000">20000000</string>
-<string name="power_menu_screenrecord_title">Screen record</string>
-<string name="screen_recorder_record_audio_title">External audio</string>
-<string name="screen_recorder_record_audio_summary">Record audio from the microphone</string>
+<string name="power_menu_screenrecord_title">Запись экрана</string>
+<string name="screen_recorder_record_audio_title">Внешнее аудио</string>
+<string name="screen_recorder_record_audio_summary">Записывать аудио из микрофона</string>
 <!-- Overflow button -->
-<string name="keys_overflow_title">Overflow button</string>
-<string name="keys_overflow_toast">The action overflow button may not be visible or hidden until apps are restarted</string>
-<string name="overflow_auto_detect">Auto detect</string>
-<string name="overflow_show">Show</string>
-<string name="overflow_hide">Hide</string>
+<string name="keys_overflow_title">Кнопка Overflow</string>
+<string name="keys_overflow_toast">Действие кнопки overflow может быть скрыто пока приложения не будут перезапущены</string>
+<string name="overflow_auto_detect">Автоопределение</string>
+<string name="overflow_show">Отображать</string>
+<string name="overflow_hide">Скрыть</string>
 <!-- Superuser indicator on status bar -->
-<string name="su_indicator">Superuser indicator</string>
-<string name="su_indicator_summary">Show superuser indicator on status bar when a session is active</string>
+<string name="su_indicator">Индикатор суперпользователя</string>
+<string name="su_indicator_summary">Показать индикатор суперпользователя в статус баре, когда сессия активна</string>
 <!-- Status bar signals icon settings -->
 <string name="status_bar_signal_settings_title">Mobile &amp; Wifi network icons</string>
 <string name="status_bar_signal_settings_summary">Customize the status bar Mobile and Wifi network icons</string>
