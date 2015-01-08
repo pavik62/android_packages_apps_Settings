@@ -851,7 +851,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 <!-- frame rates -->
 <string name="screen_recorder_bitrate_title_100000">100 кБ/с</string>
 <string name="screen_recorder_bitrate_title_250000">250 кБ/с</string>
-<string name="screen_recorder_bitrate_title_500000">500 кБ/с/string>
+<string name="screen_recorder_bitrate_title_500000">500 кБ/с</string>
 <string name="screen_recorder_bitrate_title_1000000">1 МБ/с</string>
 <string name="screen_recorder_bitrate_title_2000000">2 МБ/с</string>
 <string name="screen_recorder_bitrate_title_3000000">3 МБ/с</string>
