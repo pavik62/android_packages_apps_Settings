@@ -176,9 +176,9 @@ limitations under the License.
 <string name="show_network_traffic_unit">Еденица измерения</string>
 <string name="show_network_traffic_frequency">Интервал обновления</string>
 <string name="show_network_traffic_disable">Отключен</string>
-<string name="show_network_traffic_up">Исходящай</string>
-<string name="show_network_traffic_down">Входящий</string>
-<string name="show_network_traffic_all">Исходящий и входящий</string>
+<string name="show_network_traffic_up">Исходящий траффик</string>
+<string name="show_network_traffic_down">Входящий траффик</string>
+<string name="show_network_traffic_all">Исходящий и входящий траффики</string>
 <string name="show_network_traffic_bit">Биты в секунду</string>
 <string name="show_network_traffic_byte">Байты в секунду</string>
 <string name="show_network_traffic_500">500 мс</string>
